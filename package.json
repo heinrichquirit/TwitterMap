@@ -1,0 +1,14 @@
+{
+  "name": "assignment_two_node",
+  "version": "1.0.0",
+  "description": "Cloud Computing Assignment Two",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}

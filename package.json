@@ -1,14 +1,17 @@
 {
-  "name": "assignment_two_node",
+  "name": "rmitcloudassignment2",
   "version": "1.0.0",
   "description": "Cloud Computing Assignment Two",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "deploy": "gcloud app deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "twit": "^2.2.11"
+    "twit": "^2.2.11",
+    "express": "^4.13.4"
   }
 }
